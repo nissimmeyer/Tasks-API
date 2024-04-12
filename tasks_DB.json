@@ -1,0 +1,27 @@
+[
+   {
+      "title": "finish project",
+      "details": "write flask app",
+      "number": 1
+   },
+   {
+      "title": "keep my sanity",
+      "details": "dont lose your shit",
+      "number": 2
+   },
+   {
+      "title": "code code code",
+      "details": "keep type and learn how to code",
+      "number": 3
+   },
+   {
+      "title": "test project",
+      "details": "try to post new task",
+      "number": 4
+   },
+   {
+      "title": "try to edit task",
+      "details": "task edited using curl",
+      "number": 5
+   }
+]

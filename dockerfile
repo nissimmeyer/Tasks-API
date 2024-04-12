@@ -5,7 +5,7 @@ FROM python:3.8-alpine
 COPY ./requirements.txt /app/requirements.txt
 COPY ./task.py /app/task.py
 COPY ./task_db.py /app/task_db.py
-
+COPY ./tasks_DB.json /app/tasks_DB.json
 
 # switch working directory
 WORKDIR /app
@@ -17,4 +17,4 @@ RUN pip install -r requirements.txt
 
 ENTRYPOINT ["python" ]
 
-CMD ["view.py" ]
+CMD ["task.py" ]
